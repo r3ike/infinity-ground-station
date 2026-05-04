@@ -1,0 +1,10 @@
+# UAV Ground Station — Dependencies
+# Install with: pip install -r requirements.txt
+
+PyQt5>=5.15.0
+pymavlink>=2.4.37
+pyserial>=3.5
+numpy>=1.21.0
+
+# Optional — for enhanced charts (not required)
+# pyqtgraph>=0.13.0
