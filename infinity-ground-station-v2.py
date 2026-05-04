@@ -841,7 +841,7 @@ class FlightWindow(ControlsMixin, QMainWindow):
     def __init__(self, worker, console):
         QMainWindow.__init__(self)
         self._init_controls(worker, console)
-        self.setWindowTitle("✈   FLIGHT VIEW — UAV Ground Station")
+        self.setWindowTitle("Infinity Ground Station - Fly view")
         self.resize(1280, 860); self.setMinimumSize(900, 620)
         self.setStyleSheet(shared_stylesheet())
         self._start_time = time.time()
@@ -1019,7 +1019,7 @@ class TelemetryWindow(ControlsMixin, QMainWindow):
     def __init__(self, worker, console):
         QMainWindow.__init__(self)
         self._init_controls(worker, console)
-        self.setWindowTitle("📡   TELEMETRY & DIAGNOSTICS — UAV Ground Station")
+        self.setWindowTitle("TELEMETRY and DIAGNOSTICS — Infinity Ground Station")
         self.resize(1300, 860); self.setMinimumSize(900, 620)
         self.setStyleSheet(shared_stylesheet())
         self._make_toolbar()
